@@ -12,3 +12,5 @@ app.py, const.py
 
 Finally, execute the following command to run the application:
 python app.py --flagfile ./config/xxx.cfg
+
+The code is based on [DICE](https://github.com/tsinghua-fib-lab/DICE)

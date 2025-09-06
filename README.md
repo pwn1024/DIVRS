@@ -7,7 +7,7 @@ Learning Instrumental Variable Representation for Debiasing in Recommender Syste
 The code is based on [DICE](https://github.com/tsinghua-fib-lab/DICE)
 
 If you use this code, please cite:
-
+```
   @article{huang2025learning,
   title={Learning Instrumental Variable Representation for Debiasing in Recommender Systems},
   author={Huang, Zhirong and Zhang, Shichao and Cheng, Debo and Li, Jiuyong and Liu, Lin and Lu, Guangquan and Zhang, Guixian},
@@ -15,4 +15,5 @@ If you use this code, please cite:
   pages={107977},
   year={2025},
   publisher={Elsevier}
-}
+  }
+```

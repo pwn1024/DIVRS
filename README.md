@@ -1,16 +1,18 @@
 # DIVRS
 
-First download and unzip the dataset, which is preprocessed in a way described in detail in the paper：
-Movielens-10M and Douban-Movie
+This repository provides the implementation of our paper:
 
-Second, please start the Visdom server:
-Run the following command in your command line.
-visdom -port 33336
-
-Third, modify the dataset path and working path in the following files according to your actual setup:
-app.py, const.py
-
-Finally, execute the following command to run the application:
-python app.py --flagfile ./config/xxx.cfg
+Learning Instrumental Variable Representation for Debiasing in Recommender Systems
 
 The code is based on [DICE](https://github.com/tsinghua-fib-lab/DICE)
+
+If you use this code, please cite:
+
+  @article{huang2025learning,
+  title={Learning Instrumental Variable Representation for Debiasing in Recommender Systems},
+  author={Huang, Zhirong and Zhang, Shichao and Cheng, Debo and Li, Jiuyong and Liu, Lin and Lu, Guangquan and Zhang, Guixian},
+  journal={Neural Networks},
+  pages={107977},
+  year={2025},
+  publisher={Elsevier}
+}
